@@ -67,3 +67,15 @@ python manage.py showmigrations
 ````bash
 python manage.py inspectdb
 ````
+
+## Other - Requirements.txt
+The requirements.txt specivies the dependencies a project needs (libraries).
+### Generate a requirements.txt from the current virtual environment
+````bash
+pip freeze > requirements.txt
+````
+### Install the dependencies from a requirements.txt in a new virtual environment
+````bash
+pip install -r requirements.txt
+````
+
